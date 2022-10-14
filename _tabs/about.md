@@ -74,7 +74,7 @@ Tools are expected to follow a simple naming convention:
 - <tool>.bpf.h can optionally contain types exported to userspace through pref event or ring buffer
 - <tool>.h can optionally contain any types and constants, shared by both BPF and userspace sides of a tool.
 
-You can check the [template](template) project for more details.
+You can check the [template](https://github.com/eunomia-bpf/ebpm-template) project for more details.
 
 ## reference
 
