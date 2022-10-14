@@ -32,7 +32,7 @@ description: >-                        # used by seo meta and the atom feed
 url: ''
 
 github:
-  username: github_username             # change to your github username
+  username: yunwei37             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -83,7 +83,7 @@ theme_mode: light
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/58984965
 
 # boolean type, the global switch for ToC in posts.
 toc: true
