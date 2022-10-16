@@ -1,9 +1,9 @@
 .PHONY: test
 test:
-	rm -rf lmp
 	git clone https://github.com/linuxkerneltravel/lmp --depth 1 --recursive --shallow-submodules
 	cd lmp && git checkout develop
 	$(MAKE) $(TEST_CASES_DIRS)
+	rm -rf lmp
 
 # test with the files in eunomia-bpf
 TEST_CASES_DIRS=$(shell ls -l lmp/eBPF_Hub | grep ^d | awk '{print $$9}')
